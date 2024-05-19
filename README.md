@@ -50,18 +50,26 @@ Cuando se activa el motor del carrito a través del control remoto, se genera un
 
 La dirección del campo magnético generado por el motor dependerá de la orientación de la bobina y el imán permanente. Al invertir la polaridad de la corriente eléctrica que pasa a través de la bobina, se puede cambiar la dirección del campo magnético y, por lo tanto, invertir la dirección del movimiento del carrito.
 
+
+### Características del carro
+
+Carrito a control remoto, su base (chasis)es de metacrilato dividida en dos placas, en la primera esta la sp32, en sensor inductivo, a los lados los 4 motores con sus respectivas ruedas, en la placa superior esta el soporte de pilas con sus respectivaas pilas,el servo motor y el puente H con sus conexiones hacia los 4 motores, al sensor r inductivo, a la sp32 , al soporte de pilas y el servo mmotor
+
+
+
 ## Carrito Arduino
 
 Un carrito a control remoto construido con Arduino es un proyecto popular en el ámbito de la electrónica y la robótica.
-
-### Características
-
 Características de nuestro carrito a control remoto basado en Arduino:
 
 - **Plataforma base:** Esta construida con un chasis ligero y resistente, de metraquilato, el cual es lo suficientemente robusto para soportar los componentes y proporcionar estabilidad al vehículo.
   
 - **Motores y ruedas:** Utiliza motores de corriente continua (DC) para impulsar las ruedas del carrito. Estos motores pueden ser controlados mediante PWM (modulación de ancho de pulso) para ajustar la velocidad y la dirección del movimiento.
   
+- **Sensores opcionales:** Implementamos un sensor de proximidad inductiva que solo puede detectar objetos metálicos.
+ 
+- **Servo motor :**  Utiliza un  servo motor el cual va a girar al momento de que el sensor incductiva detecte un metal
+    
 - **Controlador de motor:** Se utiliza un controlador de motor compatible con Arduino, como un puente H, para controlar los motores de manera eficiente. Este controlador permite controlar la dirección y la velocidad de los motores.
   
 - **Arduino:** Un microcontrolador Arduino actúa como el cerebro del sistema, procesando las señales del control remoto y enviando comandos al controlador de motor para controlar el movimiento del carrito.
@@ -69,9 +77,8 @@ Características de nuestro carrito a control remoto basado en Arduino:
 - **Módulo de comunicación inalámbrica:** Se incorpora un módulo de comunicación inalámbrica, en nuestro caso, Bluetooth, para permitir el control remoto del carrito desde una distancia. Esto permite enviar comandos desde un control remoto.
   
 - **Fuente de energía:** Se necesita una fuente de energía para alimentar tanto el Arduino como los motores. Utilizamos una batería recargable.
-  
-- **Sensores opcionales:** Implementamos un sensor de proximidad inductiva que solo puede detectar objetos metálicos.
-  
+- **Jumper:** Utiliza jumpers para las conexiones de la SP323 con el puente H ademas de otros cables para las conexiones de los motorreductores
+
 - **Software:** Se desarrolla un software que se carga en el Arduino para interpretar las señales del control remoto, controlar los motores y manejar cualquier otro comportamiento deseado del carrito, utilizando el lenguaje de programación C/C++. Además, se desarrolló una aplicación para el manejo del carrito esto se realizó en APP INVENTOR.
 
 
@@ -80,44 +87,63 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - ESP32 Wroom 32 Esp-32 Wifi Bluetooth
 
-   ![](ESP-32.jpg)
+   ![imagen](assets/file.jpg)
+
+  
 
 - Puente H L298
 
-   ![](assets/driver-puente-h-l298n.jpg) 
- 
-- Motorreductor Amarillo Plastico 1 Kg*cm (5V)
+   ![imagen](assets/PuenteH.jpg)
 
-  ![](assets/motoreductor.jpg)
 
-- Llanta para motorreductor de 66Mm
+- Servomotor Sg90 Servo Motor
 
-   ![](assets/ruedas.jpg)
+  ![imagen](assets/srvomotor.png)
   
 -  Cables Jumpers MH
 
- ![](assets/jumper.jpg)
+ ![imagen](assets/jumper.jpg)
   
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
   
-  ![](assets/pilas.jpg)
+  ![imagen](assets/pilas.jpg)
 
-- Porta Pila para 2 Baterias AA con Cable Conexion Serie
-  
-  ![](assets/soporte.jpg)
   
 - Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
   
-  ![](assets/sensorinductivo.jpg)
+  ![imagen](assets/sensorinductivo.jpg)
   
 - Soldadura de estaño
   
-  ![](assets/soldaduraestaño.jpg)
- 
+  ![imagen](assets/soldaduraestaño.jpg)
+
+  
+-**Kit Chasis Carro 4wd Plataforma Movil Robot Arduino**
+
+  ![image](assets/KItCarrito.jpeg)
+
+
+ - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
+
+  ![imagen](assets/motoreductor.jpg)
+
+- Llanta para motorreductor de 66Mm
+
+   ![imagen](assets/ruedas.jpg)
+
+  - Porta Pila para 2 Baterias AA con Cable Conexion Serie
+  
+  ![imagen](assets/soporte.jpg)
+
+  
 - Metacrilato
   
-  ![](assets/metacrilato.jpg)
+  ![imagen](assets/metacrilato.jpg)
   
+
+
+ 
+
 
 ## Implementos funcionamiento del carrito a control remoto
 
@@ -129,6 +155,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 - Control remoto a través de Arduino.
 - Movimiento bidireccional.
 - Expansión con sensores (Sensor Inductivo de proximidad detector de metales).
+- Servo motor que gira cuando se detecta un metal 
 
 ## Código
 
