@@ -99,7 +99,8 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 
 - Servomotor Sg90 Servo Motor
-  ![]()
+
+  ![](assets/srvomotor.png)
   
 -  Cables Jumpers MH
 
