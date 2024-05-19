@@ -92,6 +92,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
   ![](assets/ruedas.jpg)
 -  Cables Jumpers MH
+  ![](assets/jumper.jpg)
   
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
 
