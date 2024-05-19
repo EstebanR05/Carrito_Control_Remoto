@@ -98,12 +98,13 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - Servomotor Sg90 Servo Motor
 
-  ![imagen](assets/srvomotor.png)
+  ![imagen](assets/servomotor.png)
   
 -  Cables Jumpers MH
 
  ![imagen](assets/jumper.jpg)
-  
+
+
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
   
   ![imagen](assets/pilas.jpg)
@@ -111,21 +112,20 @@ Características de nuestro carrito a control remoto basado en Arduino:
   
 - Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
   
-  ![imagen](assets/sensorinductivo.jpg)
+  ![imagen](assets/sensor.jpg)
   
 - Soldadura de estaño
   
-  ![imagen](assets/soldaduraestaño.jpg)
+  ![imagen](assets/soldadura.jpg)
 
   
 -**Kit Chasis Carro 4wd Plataforma Movil Robot Arduino**
-
-  ![image](assets/KItCarrito.jpeg)
+  ![image](assets/kit.jpg)
 
 
  - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
 
-  ![imagen](assets/motoreductor.jpg)
+  ![imagen](assets/motorreductor.jpg)
 
 - Llanta para motorreductor de 66Mm
 
@@ -133,18 +133,13 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
   - Porta Pila para 2 Baterias AA con Cable Conexion Serie
   
-  ![imagen](assets/soporte.jpg)
+  ![imagen](assets/potadap.jpg)
 
   
 - Metacrilato
   
   ![imagen](assets/metacrilato.jpg)
   
-
-
- 
-
-
 ## Implementos funcionamiento del carrito a control remoto
 
 - Código Arduino
