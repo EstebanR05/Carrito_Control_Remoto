@@ -101,11 +101,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
   ![](assets/soporte.jpg)
   
 - Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
-
-  
-
-  
-  
+![](assets/sensorinductivo.jpg)
 - Soldadura de estaño
  
 - Metacrilato
