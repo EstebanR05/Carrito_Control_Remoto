@@ -47,20 +47,30 @@ void setup()
     SerialBT.begin("ESP32test"); // Establecer el nombre del dispositivo Bluetooth
 }
 
-void loop()
+void inductiveSensor()
 {
-    if (SerialBT.connected())
+    if (digitalRead(sensorPin) == 0)
     {
-        // Verificar si el sensor está activado
-        if (digitalRead(sensorPin))
+        SerialBT.println("Metal detectado");
+        for (int pos = 0; pos <= 180; pos += 1)
         {
-            rotateServo();
+            servo.write(pos);
+            delay(15);
         }
     }
+    else
+    {
+        SerialBT.println("Metal no detectado");
+    }
+}
 
+void loop()
+{
     // Leer el carácter recibido por Bluetooth, si hay alguno disponible
     if (SerialBT.available())
     {
+        inductiveSensor();
+
         char receivedChar = SerialBT.read();
         Serial.print("Received: ");
         Serial.println(receivedChar);
@@ -146,14 +156,4 @@ void turnLeft()
     digitalWrite(enable2Pin, HIGH);
     delay(450);
     stopMotors();
-}
-
-void rotateServo()
-{
-    // Rotar el servo en base a la distancia medida
-    for (int pos = 0; pos <= 180; pos += 1)
-    {
-        servo.write(pos);
-        delay(15);
-    }
 }
