@@ -141,6 +141,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 - Control remoto a través de Arduino.
 - Movimiento bidireccional.
 - Expansión con sensores (Sensor Inductivo de proximidad detector de metales).
+- Servo motor que gira cuando se detecta un metal 
 
 ## Código
 
