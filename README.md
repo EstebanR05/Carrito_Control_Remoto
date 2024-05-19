@@ -93,7 +93,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - Puente H L298
 
-   ![imagen](assets/driver-puente-h-l298n.jpg)
+   ![imagen](assets/PuenteH.jpg)
 
 
 - Servomotor Sg90 Servo Motor
