@@ -90,7 +90,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 
 - Llanta Para Motorreductor De 66 Mm (ø)
-![]()
+![](assets/ruedas.jpg)
   
 - Cables Jumpers MH
   
