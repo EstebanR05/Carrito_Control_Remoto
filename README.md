@@ -117,7 +117,10 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
   
 -**Kit Chasis Carro 4wd Plataforma Movil Robot Arduino**
+
 ![](![image](assets/KItCarrito.jpeg)
+
+
  - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
 
   ![](assets/motoreductor.jpg)
