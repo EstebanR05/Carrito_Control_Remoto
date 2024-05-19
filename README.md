@@ -85,11 +85,12 @@ Características de nuestro carrito a control remoto basado en Arduino:
 ![](assets/driver-puente-h-l298n.jpg) 
  
 - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
+  
 ![](assets/motoreductor.jpg)
 
 
 - Llanta Para Motorreductor De 66 Mm (ø)
-  ![](assets/ruedas.jpg)
+![](assets/ruedas.jpg)
   
 - Cables Jumpers MH
   
