@@ -59,7 +59,7 @@ Carrito a control remoto, su base (chasis)es de metacrilato dividida en dos plac
 ![Imagen](assets/Car.jpg)  
 
 
-![Imagen](assets/Car3.jpg)
+![Imagen](assets/Car4.jpg)
 
 
                                                                
