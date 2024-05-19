@@ -94,18 +94,23 @@ Características de nuestro carrito a control remoto basado en Arduino:
   ![](assets/jumper.jpg)
   
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
+  
   ![](assets/pilas.jpg)
 
 - Porta Pila para 2 Baterias AA con Cable Conexion Serie
+  
   ![](assets/soporte.jpg)
   
 - Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
+  
   ![](assets/sensorinductivo.jpg)
   
 - Soldadura de estaño
+  
   ![](assets/soldaduraestaño.jpg)
  
 - Metacrilato
+  
   ![](assets/metacrilato.jpg)
   
 
