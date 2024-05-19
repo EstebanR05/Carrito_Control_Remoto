@@ -47,19 +47,15 @@ void setup() {
 }
 
 void inductiveSensor() {
-  if (SerialBT.connected()) {
-    if (digitalRead(sensorPin) == 1) {
-      SerialBT.println("Metal detectado");
-      for (int pos = 0; pos <= 180; pos += 1) {
-        servo.write(pos);
-        delay(15);
-      }
-    } else {
-      SerialBT.println("Metal no detectado");
+  if (digitalRead(sensorPin) == 1) {
+    //move the servo
+    for (int pos = 0; pos <= 180; pos += 1) {
+      servo.write(pos);
+      delay(15);
     }
   }
 
-  delay(2000);
+  delay(15);
 }
 
 void loop() {
@@ -67,7 +63,6 @@ void loop() {
 
   // Leer el carácter recibido por Bluetooth, si hay alguno disponible
   if (SerialBT.available()) {
-
     char receivedChar = SerialBT.read();
     Serial.print("Received: ");
     Serial.println(receivedChar);
@@ -127,7 +122,7 @@ void turnRight() {
   digitalWrite(motor2Pin3, HIGH);
   digitalWrite(motor2Pin4, LOW);
   digitalWrite(enable2Pin, HIGH);
-  delay(450);
+  delay(600);
   stopMotors();
 }
 
@@ -139,6 +134,6 @@ void turnLeft() {
   digitalWrite(motor2Pin3, LOW);
   digitalWrite(motor2Pin4, HIGH);
   digitalWrite(enable2Pin, HIGH);
-  delay(450);
+  delay(600);
   stopMotors();
 }
