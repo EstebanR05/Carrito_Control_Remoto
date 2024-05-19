@@ -78,29 +78,46 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 ## Implementos construcción del carrito a control remoto
 
-- ESP32 
+- ESP32 Wroom 32 Esp-32 Wifi Bluetooth
 
-![](ESP-32.jpg)
+   ![](ESP-32.jpg)
 
-  
-- Puente H
-![](assets/driver-puente-h-l298n.jpg) 
+- Puente H L298
+
+   ![](assets/driver-puente-h-l298n.jpg) 
  
-- Motorreductor
-  
--  Ruedas
-  
-- Jumpers
-  
-- Pilas recargables
+- Motorreductor Amarillo Plastico 1 Kg*cm (5V)
 
-- Soporte de pilas
+  ![](assets/motoreductor.jpg)
+
+- Llanta para motorreductor de 66Mm
+
+   ![](assets/ruedas.jpg)
   
-- Sensor inductivo (detector de metales)
+-  Cables Jumpers MH
+
+ ![](assets/jumper.jpg)
   
-- Soldadura
+- Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
+  
+  ![](assets/pilas.jpg)
+
+- Porta Pila para 2 Baterias AA con Cable Conexion Serie
+  
+  ![](assets/soporte.jpg)
+  
+- Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
+  
+  ![](assets/sensorinductivo.jpg)
+  
+- Soldadura de estaño
+  
+  ![](assets/soldaduraestaño.jpg)
  
-- Metra quilato
+- Metacrilato
+  
+  ![](assets/metacrilato.jpg)
+  
 
 ## Implementos funcionamiento del carrito a control remoto
 
@@ -115,4 +132,11 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 ## Código
 
-Explicación del código.
+librerias que se utilizaron 
+
+#include <Adafruit_Sensor.h>
+
+Con esta librería podemos realizar fácilmente la lectura de ambos sensores y no preocuparnos por el protocolo de comunicación entre Arduino y los sensores.
+
+#include <ESP32Servo.h> 
+Esta biblioteca permite a una placa Arduino controlar servomotores RC (hobby).
