@@ -87,56 +87,56 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - ESP32 Wroom 32 Esp-32 Wifi Bluetooth
 
-   ![](ESP-32.jpg)
+   ![imagen](ESP-32.jpg)
 
 - Puente H L298
 
-   ![](assets/driver-puente-h-l298n.jpg)
+   ![imagen](assets/driver-puente-h-l298n.jpg)
 
 
 - Servomotor Sg90 Servo Motor
 
-  ![](assets/srvomotor.png)
+  ![imagen](assets/srvomotor.png)
   
 -  Cables Jumpers MH
 
- ![](assets/jumper.jpg)
+ ![imagen](assets/jumper.jpg)
   
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
   
-  ![](assets/pilas.jpg)
+  ![imagen](assets/pilas.jpg)
 
   
 - Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
   
-  ![](assets/sensorinductivo.jpg)
+  ![imagen](assets/sensorinductivo.jpg)
   
 - Soldadura de estaño
   
-  ![](assets/soldaduraestaño.jpg)
+  ![imagen](assets/soldaduraestaño.jpg)
 
   
 -**Kit Chasis Carro 4wd Plataforma Movil Robot Arduino**
 
-![](![image](assets/KItCarrito.jpeg)
+  ![image](assets/KItCarrito.jpeg)
 
 
  - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
 
-  ![](assets/motoreductor.jpg)
+  ![imagen](assets/motoreductor.jpg)
 
 - Llanta para motorreductor de 66Mm
 
-   ![](assets/ruedas.jpg)
+   ![imagen](assets/ruedas.jpg)
 
   - Porta Pila para 2 Baterias AA con Cable Conexion Serie
   
-  ![](assets/soporte.jpg)
+  ![imagen](assets/soporte.jpg)
 
   
 - Metacrilato
   
-  ![](assets/metacrilato.jpg)
+  ![imagen](assets/metacrilato.jpg)
   
 
 
