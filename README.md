@@ -88,11 +88,10 @@ Características de nuestro carrito a control remoto basado en Arduino:
   
 ![](assets/motoreductor.jpg)
 
-
-- Cables Jumpers MH
+- Llanta para motorreductor de 66Mm
 
   ![](assets/ruedas.jpg)
-- Llanta Para Motorreductor De 66 Mm (ø)
+- - Cables Jumpers MH
   
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
 
