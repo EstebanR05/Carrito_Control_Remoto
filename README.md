@@ -91,15 +91,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - Puente H L298
 
-   ![](assets/driver-puente-h-l298n.jpg) 
- 
-- Motorreductor Amarillo Plastico 1 Kg*cm (5V)
-
-  ![](assets/motoreductor.jpg)
-
-- Llanta para motorreductor de 66Mm
-
-   ![](assets/ruedas.jpg)
+   ![](assets/driver-puente-h-l298n.jpg)
 
 
 - Servomotor Sg90 Servo Motor
@@ -114,9 +106,6 @@ Características de nuestro carrito a control remoto basado en Arduino:
   
   ![](assets/pilas.jpg)
 
-- Porta Pila para 2 Baterias AA con Cable Conexion Serie
-  
-  ![](assets/soporte.jpg)
   
 - Sensor Inductivo Sensor Proximidad Lj12a3-4-z/bx 6v-36v Npn
   
@@ -125,11 +114,30 @@ Características de nuestro carrito a control remoto basado en Arduino:
 - Soldadura de estaño
   
   ![](assets/soldaduraestaño.jpg)
- 
+
+  
+-**Kit Chasis Carro 4wd Plataforma Movil Robot Arduino**
+ - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
+
+  ![](assets/motoreductor.jpg)
+
+- Llanta para motorreductor de 66Mm
+
+   ![](assets/ruedas.jpg)
+
+  - Porta Pila para 2 Baterias AA con Cable Conexion Serie
+  
+  ![](assets/soporte.jpg)
+
+  
 - Metacrilato
   
   ![](assets/metacrilato.jpg)
   
+
+
+ 
+
 
 ## Implementos funcionamiento del carrito a control remoto
 
