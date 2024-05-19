@@ -79,19 +79,24 @@ Características de nuestro carrito a control remoto basado en Arduino:
 ## Implementos construcción del carrito a control remoto
 
 - ESP32 Wroom 32 Esp-32 Wifi Bluetooth
-  ![](ESP-32.jpg)
+
+   ![](ESP-32.jpg)
 
 - Puente H L298
-  ![](assets/driver-puente-h-l298n.jpg) 
+
+   ![](assets/driver-puente-h-l298n.jpg) 
  
 - Motorreductor Amarillo Plastico 1 Kg*cm (5V)
+
   ![](assets/motoreductor.jpg)
 
 - Llanta para motorreductor de 66Mm
-  ![](assets/ruedas.jpg)
+
+   ![](assets/ruedas.jpg)
   
 -  Cables Jumpers MH
-  ![](assets/jumper.jpg)
+
+ ![](assets/jumper.jpg)
   
 - Bateria Ultrafire 18650 6800mah Li-ion Recargable 18x67 Mm
   
