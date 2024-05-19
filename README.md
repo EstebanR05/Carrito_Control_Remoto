@@ -132,4 +132,6 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 ## Código
 
-Explicación del código.
+librerias que se utilizaron 
+
+Con esta librería podemos realizar fácilmente la lectura de ambos sensores y no preocuparnos por el protocolo de comunicación entre Arduino y los sensores.
