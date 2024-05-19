@@ -80,7 +80,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - SP32
 
-![](ESP-32.jpg)
+
   
 - Puente H
  
