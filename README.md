@@ -140,3 +140,6 @@ Con esta librería podemos realizar fácilmente la lectura de ambos sensores y n
 
 #include <ESP32Servo.h> 
 Esta biblioteca permite a una placa Arduino controlar servomotores RC (hobby).
+
+#include <BluetoothSerial.h>
+Esta librería nos sirve para el manejo de las funciones de Bluetooth por serial en el ESP32
