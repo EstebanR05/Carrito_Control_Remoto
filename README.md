@@ -74,34 +74,29 @@ Características de nuestro carrito a control remoto basado en Arduino:
   
 - **Software:** Se desarrolla un software que se carga en el Arduino para interpretar las señales del control remoto, controlar los motores y manejar cualquier otro comportamiento deseado del carrito, utilizando el lenguaje de programación C/C++. Además, se desarrolló una aplicación para el manejo del carrito esto se realizó en APP INVENTOR.
 
-### Imagen del carrito
 
-![Imagen del carrito](imagen_del_carrito.jpg)
 
 ## Implementos construcción del carrito a control remoto
 
 - SP32
-  ![SP32](imagen_sp32.jpg)
+  
 - Puente H
-  ![Puente H](imagen_puente_h.jpg)
+ 
 - Motores eléctricos
-  ![Motores eléctricos](imagen_motores.jpg)
--
-
- Ruedas
-  ![Ruedas](imagen_ruedas.jpg)
-- Borneras
-  ![Borneras](imagen_borneras.jpg)
+  
+-  Ruedas
+  
 - Jumpers
-  ![Jumpers](imagen_jumpers.jpg)
+  
 - Pilas recargables
-  ![Pilas recargables](imagen_pilas.jpg)
+
 - Soporte de pilas
-  ![Soporte de pilas](imagen_soporte_pilas.jpg)
+  
 - Sensor inductivo (detector de metales)
-  ![Sensor inductivo](imagen_sensor_inductivo.jpg)
+  
 - Soldadura
-  ![Soldadura](imagen_soldadura.jpg)
+ 
+- Metra quilato
 
 ## Implementos funcionamiento del carrito a control remoto
 
