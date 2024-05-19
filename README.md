@@ -56,8 +56,10 @@ La dirección del campo magnético generado por el motor dependerá de la orient
 Carrito a control remoto, su base (chasis)es de metacrilato dividida en dos placas, en la primera esta la sp32, en sensor inductivo, a los lados los 4 motores con sus respectivas ruedas, en la placa superior esta el soporte de pilas con sus respectivaas pilas,el servo motor y el puente H con sus conexiones hacia los 4 motores, al sensor r inductivo, a la sp32 , al soporte de pilas y el servo mmotor
 
 
-![Imagen](assets/Car.jpg)                                                                  ![Imagen](assets/Car2.jpg)
+![Imagen](assets/Car.jpg)  
 
+
+![Imagen](assets/Car3.jpg)
 
 
                                                                
