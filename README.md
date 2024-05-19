@@ -87,7 +87,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 - ESP32 Wroom 32 Esp-32 Wifi Bluetooth
 
-   ![imagen]()
+   ![imagen](assets/file.jpg)
 
   
 
