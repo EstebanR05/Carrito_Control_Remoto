@@ -59,6 +59,7 @@ void inductiveSensor() {
 }
 
 void loop() {
+  //acceder a la funcinalidad para que detecte o no los metales
   inductiveSensor();
 
   // Leer el carácter recibido por Bluetooth, si hay alguno disponible
