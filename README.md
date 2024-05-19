@@ -62,6 +62,10 @@ Características de nuestro carrito a control remoto basado en Arduino:
   
 - **Motores y ruedas:** Utiliza motores de corriente continua (DC) para impulsar las ruedas del carrito. Estos motores pueden ser controlados mediante PWM (modulación de ancho de pulso) para ajustar la velocidad y la dirección del movimiento.
   
+- **Sensores opcionales:** Implementamos un sensor de proximidad inductiva que solo puede detectar objetos metálicos.
+ 
+- **Servo motor :**  Utiliza un  servo motor el cual va a girar al momento de que el sensor incductiva detecte un metal
+    
 - **Controlador de motor:** Se utiliza un controlador de motor compatible con Arduino, como un puente H, para controlar los motores de manera eficiente. Este controlador permite controlar la dirección y la velocidad de los motores.
   
 - **Arduino:** Un microcontrolador Arduino actúa como el cerebro del sistema, procesando las señales del control remoto y enviando comandos al controlador de motor para controlar el movimiento del carrito.
@@ -69,9 +73,8 @@ Características de nuestro carrito a control remoto basado en Arduino:
 - **Módulo de comunicación inalámbrica:** Se incorpora un módulo de comunicación inalámbrica, en nuestro caso, Bluetooth, para permitir el control remoto del carrito desde una distancia. Esto permite enviar comandos desde un control remoto.
   
 - **Fuente de energía:** Se necesita una fuente de energía para alimentar tanto el Arduino como los motores. Utilizamos una batería recargable.
-  
-- **Sensores opcionales:** Implementamos un sensor de proximidad inductiva que solo puede detectar objetos metálicos.
-  
+- **Jumper:** Utiliza jumpers para las conexiones de la SP323 con el puente H ademas de otros cables para las conexiones de los motorreductores
+
 - **Software:** Se desarrolla un software que se carga en el Arduino para interpretar las señales del control remoto, controlar los motores y manejar cualquier otro comportamiento deseado del carrito, utilizando el lenguaje de programación C/C++. Además, se desarrolló una aplicación para el manejo del carrito esto se realizó en APP INVENTOR.
 
 
@@ -93,6 +96,10 @@ Características de nuestro carrito a control remoto basado en Arduino:
 - Llanta para motorreductor de 66Mm
 
    ![](assets/ruedas.jpg)
+
+
+- Servomotor Sg90 Servo Motor
+  ![]()
   
 -  Cables Jumpers MH
 
