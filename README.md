@@ -106,6 +106,7 @@ Características de nuestro carrito a control remoto basado en Arduino:
   ![](assets/soldaduraestaño.jpg)
  
 - Metacrilato
+  ![](assets/metacrilato.jpg)
   
 
 ## Implementos funcionamiento del carrito a control remoto
