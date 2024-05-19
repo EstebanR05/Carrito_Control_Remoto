@@ -134,6 +134,9 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 librerias que se utilizaron 
 
-°#include <Adafruit_Sensor.h>
+#include <Adafruit_Sensor.h>
 
 Con esta librería podemos realizar fácilmente la lectura de ambos sensores y no preocuparnos por el protocolo de comunicación entre Arduino y los sensores.
+
+#include <ESP32Servo.h> 
+Esta biblioteca permite a una placa Arduino controlar servomotores RC (hobby).
