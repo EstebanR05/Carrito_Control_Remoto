@@ -50,12 +50,16 @@ Cuando se activa el motor del carrito a través del control remoto, se genera un
 
 La dirección del campo magnético generado por el motor dependerá de la orientación de la bobina y el imán permanente. Al invertir la polaridad de la corriente eléctrica que pasa a través de la bobina, se puede cambiar la dirección del campo magnético y, por lo tanto, invertir la dirección del movimiento del carrito.
 
+
+### Características del carro
+
+Carrito a control remoto, su base (chasis)es de metacrilato dividida en dos placas, en la primera esta la sp32, en sensor inductivo, a los lados los 4 motores con sus respectivas ruedas, en la placa superior esta el soporte de pilas con sus respectivaas pilas,el servo motor y el puente H con sus conexiones hacia los 4 motores, al sensor r inductivo, a la sp32 , al soporte de pilas y el servo mmotor
+
+
+
 ## Carrito Arduino
 
 Un carrito a control remoto construido con Arduino es un proyecto popular en el ámbito de la electrónica y la robótica.
-
-### Características
-
 Características de nuestro carrito a control remoto basado en Arduino:
 
 - **Plataforma base:** Esta construida con un chasis ligero y resistente, de metraquilato, el cual es lo suficientemente robusto para soportar los componentes y proporcionar estabilidad al vehículo.
