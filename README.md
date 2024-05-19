@@ -78,15 +78,15 @@ Características de nuestro carrito a control remoto basado en Arduino:
 
 ## Implementos construcción del carrito a control remoto
 
-- ESP32
+- ESP32 
 
 ![](ESP-32.jpg)
 
   
-- Puente
-- ![](assets/driver-puente-h-l298n.jpg) 
+- Puente H
+![](assets/driver-puente-h-l298n.jpg) 
  
-- Motores eléctricos
+- Motorreductor
   
 -  Ruedas
   
