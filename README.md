@@ -181,7 +181,7 @@ App Inventor es una plataforma de desarrollo de aplicaciones móviles creada por
 
 App Inventor utiliza un enfoque de programación por bloques, donde los usuarios ensamblan funciones y comportamientos de la aplicación al arrastrar y soltar bloques de código visualmente. Esto hace que el proceso de desarrollo de aplicaciones sea accesible incluso para aquellos que no tienen experiencia en programación tradicional.
 
-A continuacion les mostramos nuestro aplicacion realizada por App Inventor,el control remoto para el carrito 
+A continuacion les mostramos nuestra aplicacion realizada por App Inventor,el control remoto para el carrito 
 
 ![](assets/Imagen_1.jpeg)
 
