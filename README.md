@@ -183,6 +183,8 @@ App Inventor utiliza un enfoque de programación por bloques, donde los usuarios
 
 A continuacion les mostramos nuestro aplicacion realizada por App Inventor,el control remoto para el carrito 
 
+![](assets/Imagen_1.jpeg)
+
 
 
 
