@@ -174,3 +174,15 @@ Esta biblioteca permite a una placa Arduino controlar servomotores RC (hobby).
 
 #include <BluetoothSerial.h>
 Esta librería nos sirve para el manejo de las funciones de Bluetooth por serial en el ESP32
+
+## App Inventor 
+
+App Inventor es una plataforma de desarrollo de aplicaciones móviles creada por Google y actualmente mantenida por el MIT (Instituto Tecnológico de Massachusetts). Está diseñada para permitir a personas sin experiencia previa en programación crear aplicaciones para dispositivos Android de una manera sencilla e intuitiva, utilizando un entorno de desarrollo visual basado en bloques.
+
+App Inventor utiliza un enfoque de programación por bloques, donde los usuarios ensamblan funciones y comportamientos de la aplicación al arrastrar y soltar bloques de código visualmente. Esto hace que el proceso de desarrollo de aplicaciones sea accesible incluso para aquellos que no tienen experiencia en programación tradicional.
+
+A continuacion les mostramos nuestro aplicacion realizada por App Inventor,el control remoto para el carrito 
+
+
+
+
