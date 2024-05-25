@@ -193,7 +193,7 @@ A continuacion les mostramos nuestro aplicacion realizada por App Inventor,el co
 
 
 Resultado final
-![]()
+![](assets/Imagen_Final_1.jpeg)
 ![]()
 
 
